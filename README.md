@@ -2,9 +2,9 @@
 This is an implementation of a unpaired MakeUp Generator Architecture for GAN on tensorflow. The model generates makeup image from no-makeup face or vice versa.
 
 # Getting Started
-* ([BeatyGAN.py](/libs/network/BeatyGAN.py), [config.py](/libs/configs/config.py)): These files are the main MakeupGAN network.
+* ([BeautyGAN.py](/libs/network/BeautyGAN.py), [config.py](/libs/configs/config.py)): These files are the main MakeupGAN network.
 
-* ([datapipe.py](/datasets/datapipi.py)): This file's role is loading and changing to tensor your dataset taht are in makeup_dataset folder which is consist of image and segs(mask) folder. The image folder contain makeup image and no-makeup image folder and the segs folder have 3 partial region that are eye, shadow, lips.
+* ([datapipe.py](/datasets/datapipe.py)): This file's role is loading and changing to tensor your dataset taht are in makeup_dataset folder which is consist of image and segs(mask) folder. The image folder contain makeup image and no-makeup image folder and the segs folder have 3 partial region that are eye, shadow, lips.
 
 * ([pretrained_models](/pretrained_models)): you put the pretrained ([VGG 19](http://download.tensorflow.org/models/vgg_19_2016_08_28.tar.gz)) model in this folder.
 
@@ -19,8 +19,8 @@ This is an implementation of a unpaired MakeUp Generator Architecture for GAN on
 # Result
 <table >
     <tr >
-    	<td><center>Photo</center></td>
-        <td><center>Style</center></td>
+    	<td><center>no-makeup</center></td>
+        <td><center>makeup</center></td>
     </tr>
     <tr>
     	<td>
@@ -31,8 +31,8 @@ This is an implementation of a unpaired MakeUp Generator Architecture for GAN on
     	</td>
     </tr>
     <tr >
-        <td><center>Photo with style</center></td>
-        <td><center>Style with Photo</center></td>
+        <td><center>Generated makeup image</center></td>
+        <td><center>Generated no-makeup image</center></td>
     </tr>
     <tr>
         <td>
