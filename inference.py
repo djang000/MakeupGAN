@@ -81,7 +81,7 @@ def rand_style_infer():
         imageA = datapipe._preprocess_for_test(inputA)
 
         """ build network """
-        net = model.CGNet()
+        net = model.BeautyGAN()
         net.rand_style_infer(imageA, rand_style)
 
         """ set saver for saving final model and backbone model for restore """

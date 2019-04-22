@@ -6,7 +6,6 @@ Date: 14. Feb. 2019
 """
 
 import libs.configs.config
-import libs.network.vgg16 as vgg
 import tensorflow as tf
 import tensorflow.contrib.slim as slim
 import libs.utils as utils
