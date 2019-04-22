@@ -14,7 +14,7 @@ This is an implementation of a unpaired MakeUp Generator Architecture for GAN on
 
 * ([inference.py](/inference.py)): this file is for inference. we have 2 inference mode that are reference style and random style and you set True or False on --rand_style value.
 	To run this file
-''' python infernece.py --rand_style=True'''
+''' python infernece.py '''
 
 # Result
 <table >
